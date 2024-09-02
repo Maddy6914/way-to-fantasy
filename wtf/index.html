@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+
+    <!-- google fonts handler start-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- google fonts handler end -->
+
+    <!-- google fonts for hero -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- google fonts for hero  ends here-->
+
+
+    <title>Wtf</title>
+
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+</head>
+
+<body>
+
+    <!--  navigation Bar Start  -->
+    <header id="home">
+        <img src="./halbaked.png" alt="logo of wtf" id="logo">
+        <div class="nav-container">
+            <nav class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#service">Services</a>
+                <a href="#packages">Packages</a>
+                <a href="#footer">contact</a>
+            </nav>
+        </div>
+        <div class="navTrigger">
+            <i></i><i></i><i></i>
+        </div>
+    </header>
+    <!--  End of Navigation  -->
+
+    <!-- Home page -->
+    <section class="home">
+        <div class="hero-content">
+
+            <h1> Way to fantasy </h1>
+            <p>Dream - Explore - Unwind</p>
+        </div>
+    </section>
+    <!-- Home page Ends here -->
+    <section class="about" id="service">
+
+        <h2>Our services</h2>
+        <div class="cards">
+            <div class="card">
+                <div>
+                    <img src="./icons/ticket.svg" alt="">
+                </div>
+                <h3>Tickets</h3>
+                <p>All the Transportation tickets are bought for you. We guarantee that we can find the best prices for
+                    the date you wish to travel.</p>
+            </div>
+            <div class="card">
+                <div>
+                    <img src="./icons/bed.svg" alt="">
+                </div>
+                <h3>Accomodation</h3>
+                <p>The accomodation is all booked for you. We offer rooms in 4-star hotels on every location you are
+                    going too visit.</p>
+            </div>
+            <div class="card">
+                <div>
+                    <img src="./icons/list-check.svg" alt="">
+                </div>
+                <h3>What to do</h3>
+                <p>We offer a schedule with a list of what to do each day, so you do not get lost during your trip.
+                    However, you choose if you are going to follow the schedule or not.</p>
+            </div>
+        </div>
+
+    </section>
+    <!-- Packages starts here -->
+    <section class="packages" id="packages">
+        <h2>Our packages</h2>
+
+        <div class="packages-card">
+            <div class="pcard adventure">
+                <div class="details">
+                    <h3>Adventurous</h3>
+                    <p>Satisfy your adventurous spirit by embarking on a journey through the picturesque hills, islands,
+                        and beaches of India. Explore the diverse landscapes and quench your thirst for adventure as you
+                        traverse these captivating terrains.</p>
+                    <a href="#">Know More</a>
+                </div>
+                <div class="imgp">
+                    <img src="./people-2591874_1920.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="pcard religious">
+                <div class="details">
+                    <h3>Religious</h3>
+                    <p>This journey offers a unique opportunity to appreciate India's religious tapestry, fostering a
+                        deeper understanding of its rich traditions. Embrace the spiritual vibes, mate, and soak in the
+                        cultural significance of these iconic religious landmarks.</p>
+                    <a href="#">Know More</a>
+                </div>
+                <div class="imgp">
+                    <img src="./tanjavur.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="pcard festive">
+                <div class="details">
+                    <h3>Festivals</h3>
+                    <p>Examining the various festivals and cultures of India during specific festival seasons offers a
+                        profound insight into the nation's rich diversity. It's an opportunity to witness unique customs
+                        and traditions.</p>
+                    <a href="#">Know More</a>
+                </div>
+                <div class="imgp">
+                    <img src="./yipeng-4670044_1920.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- packages ends here -->
+    <!-- footer starts here -->
+    <footer id="contacts">
+        <div class="social">
+
+            <p><img src="./icons/phone.svg" alt="">+91 6384286914</p>
+            <a href="https://www.instagram.com/6_waytofantasy_9/"><img src="./icons/instagram.svg"
+                    alt="instagram">Instagram</a>
+            <a href="https://twitter.com/waytofantasy"><img src="./icons/twitter.svg" alt="X">Twitter</a>
+            <!-- <a href="waytofantasy@gmail.com"><img src="./icons/envelope.svg" alt="mail">Email</a> -->
+        </div>
+        <div class="sitemap" id="footer">
+            <h3>Sitemap</h3>
+            <a href="#home">Home</a>
+            <a href="#service">Services</a>
+            <a href="#packages">Packages</a>
+
+        </div>
+        <div class="mail">
+            <!-- <form> -->
+            <input type="text" placeholder="Name" required id="namesender">
+            <input type="email" placeholder="Email" required id="emailid">
+            <textarea cols="30" rows="10" placeholder="Message " id="msg"></textarea>
+            <button id="submit">Send</button>
+            <!-- </form> -->
+
+        </div>
+
+    </footer>
+    <!-- footer ends here -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
